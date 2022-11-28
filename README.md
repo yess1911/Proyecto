@@ -5,9 +5,9 @@ En este repositorio se encuentra el proyecto final para la materia Computacion t
 
 ## Autores 👋
 
-* **Armenta Carbajal Yessenia Paola** 
+* **Carbajal Armenta Yessenia Paola** 
 * **Ortiz Perez Luis Alfonso** 
-* **Sánchez Lozano Jonathan** 
+* **Sanchez Lozano Jonathan** 
 
 
 ## Descripción

@@ -1,4 +1,4 @@
-# Frontend Mentor - Password generator app
+# ⚠🖥Proyecto - Computación Tolerante a Fallas 🖥⚠
 
 ![Design preview for the Password generator app coding challenge](./preview.jpg)
 

@@ -22,6 +22,7 @@ Elaborada con:
 Tecnologias para el despliegue de la aplicación:
     
     Docker 
+    OpenShift
     
 ## Despligues
 

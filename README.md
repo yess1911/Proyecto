@@ -33,9 +33,7 @@ https://www.docker.com/products/docker-desktop/
 Seleccionamos el tipo de sistema operativo, una vez terminada la instalación nos pedirá reiniciar el equipo.
 Abrimos CMD y comprobamos la instalación con: ``` docker versión ``` o ```docker –version```
 
-##
-
-Creamos un archivo ‘Dockerfile’ (un archivo Docker que tendrá las nstrucciones necesarias para crear el entorno)
+Creamos un archivo ‘Dockerfile’ (un archivo Docker que tendrá las nstrucciones necesarias para crear el entorno) 
 
 ![Dockerfile](./images/dockfile.png)
 
@@ -75,34 +73,33 @@ Se habre el navegador web por defecto y nos aparece la aplicacion:
 
 ![puertos](./images/puertos.png)
 
-##
 
 ### ⭕🖥 OpenShift 🖥⭕
 Ingresamos a la página web de RedHat, creamos un perfil e ingresamos para usar DevSandBox.
 https://developers.redhat.com/developer-sandbox
 
-##
-
 Una vez dentro del DevSandBox, nos posicionamos en la navegación como “Developer”.
 
-![inicio sandbox](./images/inicio sandbox.png)
+![inicio sandbox](./images/inicio%20sandbox.png)
+
+
  
 Una vez en la posicionados en la vista de “Developer” nos dirigimos a la sección de “Add” para agregar nuestra app que en esta ocasión será mediante la opción de “Git Repository”.
 
-![sección add](./images/sección add.png)
+![sección add](./images/secci%C3%B3n%20add.png)
  
 En esta pestaña añadimos la URL de nuestro repositorio de GitHub y así procedemos a crear nuestra app en OpenShift.
 
-![importar git 1](./images/importar git 1.png)
+![importar git 1](./images/importar%20git%201.png)
 
-![importar git 2](./images/importar git 2.png)
+![importar git 2](./images/importar%20git%202.png)
 
 Ahora en la sección de “Topology” podemos ver que el deploy de nuestra app está listo y en ejecución.
 
-![sección topology](./images/sección topology.png)
+![sección topology](./images/secci%C3%B3n%20topology.png)
  
 Finalmente abrimos en otra pestaña nuestra app para comprobar que todo funciona de manera satisfactoria.
  
- ![deploy openshfit](./images/deploy openshfit.png)
+ ![deploy openshfit](./images/deploy%20openshift.png)
 
 

@@ -84,19 +84,25 @@ https://developers.redhat.com/developer-sandbox
 ##
 
 Una vez dentro del DevSandBox, nos posicionamos en la navegación como “Developer”.
+
 ![inicio sandbox](./images/inicio sandbox.png)
  
 Una vez en la posicionados en la vista de “Developer” nos dirigimos a la sección de “Add” para agregar nuestra app que en esta ocasión será mediante la opción de “Git Repository”.
+
 ![sección add](./images/sección add.png)
  
 En esta pestaña añadimos la URL de nuestro repositorio de GitHub y así procedemos a crear nuestra app en OpenShift.
+
 ![importar git 1](./images/importar git 1.png)
+
 ![importar git 2](./images/importar git 2.png)
 
 Ahora en la sección de “Topology” podemos ver que el deploy de nuestra app está listo y en ejecución.
+
 ![sección topology](./images/sección topology.png)
  
 Finalmente abrimos en otra pestaña nuestra app para comprobar que todo funciona de manera satisfactoria.
+ 
  ![deploy openshfit](./images/deploy openshfit.png)
 
 

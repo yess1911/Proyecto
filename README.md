@@ -79,16 +79,14 @@ Se habre el navegador web por defecto y nos aparece la aplicacion:
 ### ⭕🖥 OpenShift 🖥⭕
 Ingresamos a la página web de RedHat, creamos un perfil e ingresamos para usar DevSandBox.
 https://developers.redhat.com/developer-sandbox
-Seleccionamos el tipo de sistema operativo, una vez terminada la instalación nos pedirá reiniciar el equipo.
-Abrimos CMD y comprobamos la instalación con: ``` docker versión ``` o ```docker –version```
 
 ##
 
 Una vez dentro del DevSandBox, nos posicionamos en la navegación como “Developer”.
- 
+![inicio sandbox](./images/inicio sandbox.png)
  
 Una vez en la posicionados en la vista de “Developer” nos dirigimos a la sección de “Add” para agregar nuestra app que en esta ocasión será mediante la opción de “Git Repository”.
- 
+![sección add](./images/sección add.png)
  
 En esta pestaña añadimos la URL de nuestro repositorio de GitHub y así procedemos a crear nuestra app en OpenShift.
 

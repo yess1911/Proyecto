@@ -73,10 +73,13 @@ Se habre el navegador web por defecto y nos aparece la aplicacion:
 
 ![puertos](./images/puertos.png)
 
+##
 
 ### ⭕🖥 OpenShift 🖥⭕
 Ingresamos a la página web de RedHat, creamos un perfil e ingresamos para usar DevSandBox.
 https://developers.redhat.com/developer-sandbox
+
+##
 
 Una vez dentro del DevSandBox, nos posicionamos en la navegación como “Developer”.
 

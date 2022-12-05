@@ -114,7 +114,7 @@
 </p>
 
 <p align="center">
-  <img src="/images/12.png">
+  <img width="600" height="300" src="/images/12.png">
 </p> 
 
 <p align="justify">

@@ -2,7 +2,7 @@
 En este repositorio se encuentra el proyecto final para la materia Computacion tolerante a fallas D06 Profesor: Michel Emanuel Lopez Franco.
 
 <p align="center">
-  <img src="./images/inicio.png">
+  <img src="https://static.wixstatic.com/media/ef52d5_3bac6fc77987421996e209f9eff70349~mv2.gif">
 </p>
 
 ## Autores 📝🏻

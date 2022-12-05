@@ -149,8 +149,9 @@ Finalmente abrimos en otra pestaña nuestra app para comprobar que todo funciona
   <img width="750" height="400" src="./images/deploy%20openshift.png">
 </p>
 
+##
 
-### ⛵ Kubernetes ⛵
+### ☸ Kubernetes ☸
 Ingresamos a la página web de RedHat, creamos un perfil e ingresamos para usar DevSandBox.
 https://developers.redhat.com/developer-sandbox
 

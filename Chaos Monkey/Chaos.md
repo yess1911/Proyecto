@@ -132,34 +132,11 @@
   <img src="/images/14.png">
 </p>
 
+<p align="justify">
+  15.- Por último, volvemos a nuestro sitio y observamos que efectivamente este se ha caído.
 
+<p align="center">
+  <img src="/images/15.png">
+</p>
 
-
-
-## Autores 📝🏻
-
-* **Carbajal Armenta Yessenia Paola** 
-* **Ortiz Perez Luis Alfonso** 
-* **Sanchez Lozano Jonathan** 
-
-
-## Herramientas🛠️
-
-Elaborada con:
-
-    Html
-    Css
-    Javascript
-
-Tecnologias para el despliegue de la aplicación:
-    
-    Docker 
-    OpenShift
-
-## Descripción🔑
-La aplicacion web es una aplicacion de generador de contraseñas, el usuario ingresa el tamaños de la cadena de caracteres, señala si puede incluir Mayúsculas, Minúsculas, Números y Símbolos, en ella se pueden obtener 4 diferentes niveles de "fuerza":
-
-* **Muy Débil** 
-* **Débil** 
-* **Medio** 
-* **Fuerte** 
+##

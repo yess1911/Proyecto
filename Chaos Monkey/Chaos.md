@@ -136,7 +136,11 @@
   15.- Por último, volvemos a nuestro sitio y observamos que efectivamente este se ha caído.
 
 <p align="center">
-  <img src="/images/15.png">
+  <img width="600" height="350" src="/images/15.png">
 </p>
 
 ##
+
+<p align="center">
+  <img src="https://media.tenor.com/XpQuXaxXE7AAAAAd/kitchen-burn.gif">
+</p>

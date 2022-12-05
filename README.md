@@ -83,11 +83,6 @@ Mostramos las imagenes de docker con
 
 ![imagenes](./images/imagenes.png)
 
-Mostramos las imagenes de docker con
-```docker images```
-
-![imagenes](./images/imagenes.png)
-
 Creada la imagen realizamos el lanzamiento:
 ```docker run -d -p 80:80 html-server-image:v1```
 
@@ -157,4 +152,69 @@ https://developers.redhat.com/developer-sandbox
 
 ##
 
-Una vez dentro del DevSandBox, nos posicionamos en la navegación como “Developer”.
+1.Inicializar el cluster.
+
+ <p align="center">
+  <img src="./images/kubernete%201.png">
+</p>
+
+ 
+ <p align="center">
+  <img src="./images/kubernete%202.png">
+</p>
+
+2.Interactuar con el cluster
+ 
+ <p align="center">
+  <img src="./images/kubernete%203.png">
+</p>
+
+texto
+ 
+ <p align="center">
+  <img src="./images/kubernete%204.png">
+</p>
+
+texto
+ 
+ <p align="center">
+  <img src="./images/kubernete%205.png">
+</p>
+
+texto
+ 
+ <p align="center">
+  <img src="./images/kubernete%205-1.png">
+</p>
+
+texto
+ 
+ <p align="center">
+  <img src="./images/kubernete%206.png">
+</p>
+
+texto
+ 
+ <p align="center">
+  <img src="./images/kubernete%207.png">
+</p>
+
+texto
+ 
+ <p align="center">
+  <img width="750" height="400" src="./images/despliegue%20kubernetes.png">
+</p>
+
+
+texto
+ 
+ <p align="center">
+  <img src="./images/kubernete%208.png">
+</p>
+
+
+texto
+ 
+ <p align="center">
+  <img src="./images/kubernete%209.png">
+</p>

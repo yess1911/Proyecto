@@ -3,15 +3,14 @@ En este repositorio se encuentra el proyecto final para la materia Computacion t
 
 ![Aplicacion web que genera contraseñas](./images/inicio.png)
 
-## Autores 👋
+## Autores 📝🏻
 
 * **Carbajal Armenta Yessenia Paola** 
 * **Ortiz Perez Luis Alfonso** 
 * **Sanchez Lozano Jonathan** 
 
 
-## Descripción
-La aplicacion web es una aplicacion de generador de contraseñas, el usuario ingresa el tamaños de a cadena de caracteres, señala si puede incluir Mayúsculas, Minúsculas, Números y Símbolos
+## Herramientas🛠️
 
 Elaborada con:
 
@@ -23,11 +22,31 @@ Tecnologias para el despliegue de la aplicación:
     
     Docker 
     OpenShift
-    
-## Despligues
+
+## Descripción🔑
+La aplicacion web es una aplicacion de generador de contraseñas, el usuario ingresa el tamaños de la cadena de caracteres, señala si puede incluir Mayúsculas, Minúsculas, Números y Símbolos, en ella se pueden obtener 4 diferentes niveles de "fuerza":
+
+* **Muy Débil** 
+* **Débil** 
+* **Medio** 
+* **Fuerte** 
+
+![App inicial](./images/app.png)
+
+Esta cuenta con varias validaciones como la dependencia de comparar que selecciones de casillas hace el usuario, si por ejemplo, selecciona pocos caracteres y pocas inclusiones de casillas esta será débil pero de igual forma se podrá generar.
+![App inicial](./images/appdebil.png)
+
+Por otro lado, si se selecciona una alta cantidad de caracteres y todas las casillas (o la mayoria), la contraseña que se generará será más fuerte.
+![App inicial](./images/appfuerte.png)
+
+Además de generar la contraseña, la app cuenta con la función de copiar en el portapapeles la contraseña mediante un botón, el cual se ubica dentro del recuadro donde se genera y que al hacerle clic aparece el mensaje de "copied".
+![App inicial](./images/appcopie.png)
 
 
-### 🐳🖥 Docker 🖥🐳
+## Despligues🖥
+
+
+### 🐳 Docker 🐳
 Descargamos e instalamos Docker en el equipo:
 https://www.docker.com/products/docker-desktop/
 Seleccionamos el tipo de sistema operativo, una vez terminada la instalación nos pedirá reiniciar el equipo.
@@ -75,7 +94,7 @@ Se habre el navegador web por defecto y nos aparece la aplicacion:
 
 ##
 
-### ⭕🖥 OpenShift 🖥⭕
+### ⭕ OpenShift ⭕
 Ingresamos a la página web de RedHat, creamos un perfil e ingresamos para usar DevSandBox.
 https://developers.redhat.com/developer-sandbox
 

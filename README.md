@@ -151,7 +151,7 @@ Minikube es una herramienta opensource que mediante la creación de una máquina
 
 ##
 
-1.Empezamos iniciando el cluster. Se ejecuto PowerShell como administrador ejecutamos el siguiente comando "minikube start". Este comando realizará la descarga de la imagen de la máquina virtual realizará la configuración necesaria y la pondrá en marcha.
+1.- Empezamos iniciando el cluster. Se ejecuto PowerShell como administrador ejecutamos el siguiente comando "minikube start". Este comando realizará la descarga de la imagen de la máquina virtual realizará la configuración necesaria y la pondrá en marcha.
 
  <p align="center">
   <img src="./images/kubernete%201.png">
@@ -162,7 +162,7 @@ Minikube es una herramienta opensource que mediante la creación de una máquina
   <img src="./images/kubernete%202.png">
 </p>
 
-2. Una vez completado el proceso se configurará kubectl para acceder al entorno de minikube. En la siguiente imagen se muestra la ejecución de un comando de kubectl directamente sobre minikube. accediendo a el y descargamos la version adecuada de kubectl para poderlo usar sin ningun problema
+2.- Una vez completado el proceso se configurará kubectl para acceder al entorno de minikube. En la siguiente imagen se muestra la ejecución de un comando de kubectl directamente sobre minikube. accediendo a el y descargamos la version adecuada de kubectl para poderlo usar sin ningun problema
  
  <p align="center">
   <img src="./images/kubernete%203.png">
@@ -173,25 +173,25 @@ Minikube es una herramienta opensource que mediante la creación de una máquina
   <img src="./images/kubernete%204.png">
 </p>
 
-3. Con el objetivo de testear el entorno se va a explicar a continuación como desplegar una sencilla aplicación basada en nginx. Posteriormente implementamos nuestra aplicacion que la exportamos a nuestro puerto :80. Primeramente como en cualquier clúster se realiza la creación del deployment. Este comando de kubectl crea un deployment de la aplicación que a instruye al clúster a crear un pod de la imagen seleccionada.
+3.- Con el objetivo de testear el entorno se va a explicar a continuación como desplegar una sencilla aplicación basada en nginx. Posteriormente implementamos nuestra aplicacion que la exportamos a nuestro puerto :80. Primeramente como en cualquier clúster se realiza la creación del deployment. Este comando de kubectl crea un deployment de la aplicación que a instruye al clúster a crear un pod de la imagen seleccionada.
  
  <p align="center">
   <img src="./images/kubernete%205.png">
 </p>
 
-texto
+4.- La diferencia de minikube con clúster reales es que en este caso para este tipo de servicios no es capaz de asignar una dirección ip pública al mismos, lo cual tiene sentido al tratarse de un entorno local. Al no disponer de esta IP no se puede acceder directamente al servicio. Puede tomar un momento, pero su implementación aparecerá pronto cuando ejecute: 
  
  <p align="center">
   <img src="./images/kubernete%205-1.png">
 </p>
 
-texto
+5.- Para poder acceder al servicio minikube dispone de un comando service que genera el mapeado de puertos necesario para que se pueda acceder localmente y abre el navegador web por defecto. La forma más fácil de acceder a este servicio es dejar que minikube inicie un navegador web por usted:
  
  <p align="center">
   <img src="./images/kubernete%206.png">
 </p>
 
-texto
+6.- Inicialmente, es posible que algunos servicios, como el proveedor de almacenamiento, aún no estén en estado de ejecución. Esta es una condición normal durante la activación del clúster y se resolverá momentáneamente. Para obtener información adicional sobre el estado de su clúster, minikube incluye el Panel de control de Kubernetes, lo que le permite adaptarse fácilmente a su nuevo entorno:
  
  <p align="center">
   <img src="./images/kubernete%207.png">
@@ -216,3 +216,5 @@ texto
  <p align="center">
   <img src="./images/kubernete%209.png">
 </p>
+
+En conclusión, minikube es una herramienta sencilla de utilizar, que consume unos recursos moderados y que nos permite probar en gran medida como se va a comportar nuestra aplicación en un entorno de contenedores. Este tipo de herramientas son muy útiles a los desarrolladores para poder prever posibles problemas en los despliegues y en el momento de la ejecución.

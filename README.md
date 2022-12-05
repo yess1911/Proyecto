@@ -191,27 +191,24 @@ Minikube es una herramienta opensource que mediante la creación de una máquina
   <img src="./images/kubernete%206.png">
 </p>
 
-6.- Inicialmente, es posible que algunos servicios, como el proveedor de almacenamiento, aún no estén en estado de ejecución. Esta es una condición normal durante la activación del clúster y se resolverá momentáneamente. Para obtener información adicional sobre el estado de su clúster, minikube incluye el Panel de control de Kubernetes, lo que le permite adaptarse fácilmente a su nuevo entorno:
- 
- <p align="center">
-  <img src="./images/kubernete%207.png">
-</p>
-
-texto
+6.- La aplicacion ya esta lista en http://127.0.0.1:61942
  
  <p align="center">
   <img width="750" height="400" src="./images/despliegue%20kubernetes.png">
 </p>
 
+7.- Inicialmente, es posible que algunos servicios, como el proveedor de almacenamiento, aún no estén en estado de ejecución. Esta es una condición normal durante la activación del clúster y se resolverá momentáneamente. Para obtener información adicional sobre el estado de su clúster, minikube incluye el Panel de control de Kubernetes, lo que le permite adaptarse fácilmente a su nuevo entorno:
+ 
+ <p align="center">
+  <img src="./images/kubernete%207.png">
+</p>
 
-texto
+8.- Finalmente nos abrira el navegador en kubernetes para poder visualizar los estados de carga de trabajo los cuales tenemos los Despliegues, Pods y Replica Sets
  
  <p align="center">
   <img src="./images/kubernete%208.png">
 </p>
 
-
-texto
  
  <p align="center">
   <img src="./images/kubernete%209.png">

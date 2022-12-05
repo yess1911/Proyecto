@@ -147,12 +147,11 @@ Finalmente abrimos en otra pestaña nuestra app para comprobar que todo funciona
 ##
 
 ### ☸ Kubernetes ☸
-Ingresamos a la página web de RedHat, creamos un perfil e ingresamos para usar DevSandBox.
-https://developers.redhat.com/developer-sandbox
+Minikube es una herramienta opensource que mediante la creación de una máquina virtual (en sistemas Linux puede funcionar sin crear esta virtualización) permite disponer de un entorno sencillo de Kubernetes con la mayor parte de sus funcionalidades.
 
 ##
 
-1.Inicializar el cluster.
+1.Empezamos iniciando el cluster. Se ejecuto PowerShell como administrador ejecutamos el siguiente comando "minikube start". Este comando realizará la descarga de la imagen de la máquina virtual realizará la configuración necesaria y la pondrá en marcha.
 
  <p align="center">
   <img src="./images/kubernete%201.png">
@@ -163,19 +162,18 @@ https://developers.redhat.com/developer-sandbox
   <img src="./images/kubernete%202.png">
 </p>
 
-2.Interactuar con el cluster
+2. Una vez completado el proceso se configurará kubectl para acceder al entorno de minikube. En la siguiente imagen se muestra la ejecución de un comando de kubectl directamente sobre minikube. accediendo a el y descargamos la version adecuada de kubectl para poderlo usar sin ningun problema
  
  <p align="center">
   <img src="./images/kubernete%203.png">
 </p>
 
-texto
  
  <p align="center">
   <img src="./images/kubernete%204.png">
 </p>
 
-texto
+3. Con el objetivo de testear el entorno se va a explicar a continuación como desplegar una sencilla aplicación basada en nginx. Posteriormente implementamos nuestra aplicacion que la exportamos a nuestro puerto :80. Primeramente como en cualquier clúster se realiza la creación del deployment. Este comando de kubectl crea un deployment de la aplicación que a instruye al clúster a crear un pod de la imagen seleccionada.
  
  <p align="center">
   <img src="./images/kubernete%205.png">

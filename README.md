@@ -1,7 +1,9 @@
 # ⚠🖥Proyecto - Computación Tolerante a Fallas 🖥⚠
 En este repositorio se encuentra el proyecto final para la materia Computacion tolerante a fallas D06 Profesor: Michel Emanuel Lopez Franco.
 
-![Aplicacion web que genera contraseñas](./images/inicio.png)
+<p align="center">
+  <img src="./images/inicio.png">
+</p>
 
 ## Autores 📝🏻
 
@@ -31,19 +33,28 @@ La aplicacion web es una aplicacion de generador de contraseñas, el usuario ing
 * **Medio** 
 * **Fuerte** 
 
-![App inicial](./images/app.png)
+<p align="center">
+  <img src="./images/app.png">
+</p>
+
 
 Esta cuenta con varias validaciones como la dependencia de comparar que selecciones de casillas hace el usuario, si por ejemplo, selecciona pocos caracteres y pocas inclusiones de casillas esta será débil pero de igual forma se podrá generar.
 
-![App inicial](./images/appdebil.png)
+<p align="center">
+  <img src="./images/appdebil.png">
+</p>
 
 Por otro lado, si se selecciona una alta cantidad de caracteres y todas las casillas (o la mayoria), la contraseña que se generará será más fuerte.
 
-![App inicial](./images/appfuerte.png)
+<p align="center">
+  <img src="./images/appfuerte.png">
+</p>  
 
 Además de generar la contraseña, la app cuenta con la función de copiar en el portapapeles la contraseña mediante un botón, el cual se ubica dentro del recuadro donde se genera y que al hacerle clic aparece el mensaje de "copied".
 
-![App inicial](./images/appcopie.png)
+<p align="center">
+  <img src="./images/appcopie.png">
+</p> 
 
 
 ## Despligues🖥
@@ -105,26 +116,44 @@ https://developers.redhat.com/developer-sandbox
 
 Una vez dentro del DevSandBox, nos posicionamos en la navegación como “Developer”.
 
-![inicio sandbox](./images/inicio%20sandbox.png)
-
-
+<p align="center">
+  <img src="./images/inicio%20sandbox.png">
+</p> 
  
 Una vez en la posicionados en la vista de “Developer” nos dirigimos a la sección de “Add” para agregar nuestra app que en esta ocasión será mediante la opción de “Git Repository”.
 
-![sección add](./images/secci%C3%B3n%20add.png)
+<p align="center">
+  <img width= "750" height=" 400" src="./images/secci%C3%B3n%20add.png">
+</p>
  
 En esta pestaña añadimos la URL de nuestro repositorio de GitHub y así procedemos a crear nuestra app en OpenShift.
 
-![importar git 1](./images/importar%20git%201.png)
+<p align="center">
+  <img src="./images/importar%20git%201.png">
+</p> 
 
-![importar git 2](./images/importar%20git%202.png)
+<p align="center">
+  <img src="./images/importar%20git%202.png">
+</p> 
+
 
 Ahora en la sección de “Topology” podemos ver que el deploy de nuestra app está listo y en ejecución.
 
-![sección topology](./images/secci%C3%B3n%20topology.png)
+<p align="center">
+  <img src="./images/secci%C3%B3n%20topology.png">
+</p>
  
 Finalmente abrimos en otra pestaña nuestra app para comprobar que todo funciona de manera satisfactoria.
  
- ![deploy openshfit](./images/deploy%20openshift.png)
+ <p align="center">
+  <img width="750" height="400" src="./images/deploy%20openshift.png">
+</p>
 
 
+### ⛵ Kubernetes ⛵
+Ingresamos a la página web de RedHat, creamos un perfil e ingresamos para usar DevSandBox.
+https://developers.redhat.com/developer-sandbox
+
+##
+
+Una vez dentro del DevSandBox, nos posicionamos en la navegación como “Developer”.

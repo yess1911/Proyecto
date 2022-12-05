@@ -1,7 +1,7 @@
 # ⚠🖥Proyecto - Computación Tolerante a Fallas 🖥⚠
 En este repositorio se encuentra el proyecto final para la materia Computacion tolerante a fallas D06 Profesor: Michel Emanuel Lopez Franco.
 
-![Aplicacion web que genera contraseñas](./images/app.png)
+![Aplicacion web que genera contraseñas](./images/inicio.png)
 
 ## Autores 👋
 

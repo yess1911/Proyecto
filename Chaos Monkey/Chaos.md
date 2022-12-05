@@ -6,9 +6,75 @@
  * **Chaos Engineering es la disciplina de experimentar en un sistema para generar confianza en la capacidad del sistema para soportar condiciones turbulentas en la producción.** 
 </p>
 
+##
+
 <p align="center">
   <img src="https://i.pinimg.com/originals/52/ce/57/52ce57e7e3cbb5a31cc7792180d734d9.gif">
 </p>
+
+##
+
+## Ejemplo online de Chaos Monkey🖥️💥
+
+aaaaaaaaaaaaaaaaaaa
+
+<p align="center">
+  <img src="/images/1.png">
+</p>  
+
+<p align="center">
+  <img src="/images/2.png">
+</p> 
+
+<p align="center">
+  <img src="/images/3.png">
+</p> 
+
+<p align="center">
+  <img src="/images/4.png">
+</p> 
+
+<p align="center">
+  <img src="/images/5.png">
+</p> 
+
+<p align="center">
+  <img src="/images/6.png">
+</p> 
+
+<p align="center">
+  <img src="/images/7.png">
+</p> 
+
+<p align="center">
+  <img src="/images/8.png">
+</p> 
+
+<p align="center">
+  <img src="/images/9.png">
+</p> 
+
+<p align="center">
+  <img src="/images/10.png">
+</p> 
+
+<p align="center">
+  <img src="/images/11.png">
+</p> 
+
+<p align="center">
+  <img src="/images/12.png">
+</p> 
+
+<p align="center">
+  <img src="/images/13.png">
+</p> 
+
+<p align="center">
+  <img src="/images/14.png">
+</p> 
+
+
 
 ## Autores 📝🏻
 

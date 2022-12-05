@@ -24,6 +24,7 @@ Tecnologias para el despliegue de la aplicación:
     
     Docker 
     OpenShift
+    Kubernetes
 
 ## Descripción🔑
 La aplicacion web es una aplicacion de generador de contraseñas, el usuario ingresa el tamaños de la cadena de caracteres, señala si puede incluir Mayúsculas, Minúsculas, Números y Símbolos, en ella se pueden obtener 4 diferentes niveles de "fuerza":

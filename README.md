@@ -34,12 +34,15 @@ La aplicacion web es una aplicacion de generador de contraseñas, el usuario ing
 ![App inicial](./images/app.png)
 
 Esta cuenta con varias validaciones como la dependencia de comparar que selecciones de casillas hace el usuario, si por ejemplo, selecciona pocos caracteres y pocas inclusiones de casillas esta será débil pero de igual forma se podrá generar.
+
 ![App inicial](./images/appdebil.png)
 
 Por otro lado, si se selecciona una alta cantidad de caracteres y todas las casillas (o la mayoria), la contraseña que se generará será más fuerte.
+
 ![App inicial](./images/appfuerte.png)
 
 Además de generar la contraseña, la app cuenta con la función de copiar en el portapapeles la contraseña mediante un botón, el cual se ubica dentro del recuadro donde se genera y que al hacerle clic aparece el mensaje de "copied".
+
 ![App inicial](./images/appcopie.png)
 
 
